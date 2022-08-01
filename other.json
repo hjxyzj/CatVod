@@ -1,6 +1,6 @@
 {
 // spider
-"spider":"https://kvymin.github.io/CatVod/jar/0730_spider.jar;md5;e470fb16926ae5c2961358b167b155f5",
+"spider":"https://kvymin.github.io/CatVod/jar/0731_spider.jar;md5;7eacb357cf27abce92ed497367221e5a",
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 // 直播
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRlYS5jb20vcWlhb2ppL2phci9yYXcvYnJhbmNoL21haW4vemIudHh0"]}]}],
@@ -8,6 +8,7 @@
 "sites":[
 {"key":"KanSJ_spider","name":"看视界","api":"csp_KanSJ","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":""},
 {"key":"293视频","name":"293视频","type":3,"api":"csp_SP293","searchable":1,"quickSearch":1,"filterable":1,"ext":""},
+{"key":"Smdyy_spider","name":"神马影视","api":"csp_Smdyy","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":""},
 {"key":"小苹果","name":"小苹果","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"追剧喵","name":"追剧喵","type":3,"api":"csp_ZJMiao","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"Ekan_spider","name":"Ekan","api":"csp_Ekan","type":3,"filterable":1,"quickSearch":1,"searchable":1},
