@@ -1,4 +1,5 @@
 {
+  "spider": "https://Kvymin.github.io/CatVod/jar/Hsck.jar;md5;95f1754708eeaf127d93fea25dcd120a",
   "sites": [
     {
       "key": "csp_Xpath_lezhu",
@@ -38,39 +39,14 @@
       "filterable": 1
     },
     {
-      "key": "优酷(官源)",
-      "name": "🏐优酷〔采集〕",
-      "type": 0,
-      "api": "http://www.zycaiji.net:7788/api.php/provide/vod/from/youku/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "categories": [
-        "综艺",
-        "动漫",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "港台剧",
-        "日韩剧",
-        "欧美剧",
-        "惊悚片",
-        "犯罪片",
-        "冒险片",
-        "悬疑片",
-        "动画片",
-        "武侠片",
-        "奇幻片",
-        "少儿",
-        "其他片",
-        "其他剧"
-      ]
-    },
+      "key":"csp_xpath_bttwoo",
+      "name":"两个BT(XP)",
+      "type":3,
+      "api":"csp_XPath",
+      "searchable":0,
+      "quickSearch":0,
+      "filterable":0,
+      "ext":"http://kvymin.github.io/CatVod/Xpath/bttwoo.json"},
     {
       "key":"csp_xpath_wmkk",
       "name":"完美看看〔XP〕",
@@ -198,6 +174,32 @@
   ],
   "parses": [
     {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Json并发",
+      "type": 2,
+      "url": "Parallel"
+    },
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
+    },    
+    {
+      "name":"293",
+      "type":1,
+      "url":"http://47.98.234.2:7768/api.php?url=",
+      "ext":{"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}
+    }, 
+    {
+      "name":"极速1号",
+      "type":1,
+      "url":"https://play.fuqizhishi.com/mov/API.php?appkey=QQ172598364&url="
+    },
+    {
       "name": "未知",
       "type": 1,
       "url": "http://106.52.218.221:88/?url=",
@@ -220,6 +222,34 @@
           "bilibili",
           "哔哩哔哩",
           "哔哩"
+        ]
+      }
+    },
+    {
+      "name":"极速12号",
+      "type":1,
+      "url":"https://za.kuanjv.com/?url=",
+      "ext":{
+         "flag":[
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+          "xigua",
+          "西瓜"
         ]
       }
     },
@@ -510,6 +540,5 @@
     "qiu.xixiqiu.com",
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
-  ],
-  "spider": "https://Kvymin.github.io/CatVod/jar/Hsck.jar;md5;95f1754708eeaf127d93fea25dcd120a"
+  ]
 }
