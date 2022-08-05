@@ -1,6 +1,6 @@
 {
   //"wallpaper": "http://www.kf666888.cn/api/tvbox/img",
-  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider_0803.jar;md5;7a7e8073d59022b0de11aa135c60b05f",
+  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider_0805.jar;md5;09de0ba99a9e27021303d14610836fbb",
   "sites": [
     {
       "key": "csp_CZSPP",
@@ -36,7 +36,8 @@
       "api": "csp_SP293",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": ""
     },
     {
       "key": "小苹果",
@@ -91,7 +92,8 @@
       "api": "csp_Smdyy",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": ""
     },
     {
       "key": "csp_Cokemv",
@@ -164,6 +166,26 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "Lezhu_spider",
+      "name": "乐猪影视",
+      "api": "csp_Lezhu",
+      "type": 3,
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "ext": ""
+    },
+    {
+	"key": "KanSJ_spider",
+	"name": "看视界",
+	"api": "csp_KanSJ",
+	"type": 3,
+	"filterable": 1,
+	"quickSearch": 1,
+	"searchable": 1,
+	"ext": ""
     },
     {
       "key": "csp_BBB",
@@ -246,7 +268,8 @@
       "api": "csp_AliPanSou",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": "dcbc975ad0684eb5a498ecd1836272e6"
     },
     {
       "key": "Gitcafe",
@@ -255,7 +278,8 @@
       "api": "csp_GitCafe",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": "dcbc975ad0684eb5a498ecd1836272e6"
     },
     {
       "key": "FindZY",
@@ -264,7 +288,8 @@
       "api": "csp_FindZY",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": "dcbc975ad0684eb5a498ecd1836272e6"
     },
     {
       "key": "push_agent",
@@ -274,7 +299,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "阿里Token"
+      "ext": "dcbc975ad0684eb5a498ecd1836272e6"
     }
   ],
   "lives": [

@@ -1,6 +1,7 @@
 {
   //"wallpaper": "https://picsum.photos/1280/720/?blur=10",
-  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;d63fe3db21b48e04884c2d5303907bd1",
+  //"spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;d63fe3db21b48e04884c2d5303907bd1",
+  "spider": "https://kvymin.github.io/CatVod/jar/kmys.jar;md5;c6c3abb8b47fc5509434a4cca224cd32",
   "sites": [
     {
       "key": "厂长影视",
@@ -31,9 +32,18 @@
     },
     {
       "key": "神马影院",
-      "name": "神马影院",
+      "name": "神马影院〔SP〕",
       "type": 3,
       "api": "csp_Smdyy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "酷猫",
+      "name": "酷猫〔SP〕",
+      "type": 3,
+      "api": "csp_Kmys",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -278,7 +288,7 @@
     },
     {
       "key":"茶杯狐",
-      "name":"🦊茶杯狐",
+      "name":"茶杯狐〔XB〕",
       "type":3,
       "api":"csp_XBiubiu",
       "searchable":1,
@@ -304,7 +314,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "5d52036a715340f69380144ff6837fa0"
+      "ext": "28801b1dbaf4418fb7bc221a575703dd"
     },
     {
       "key": "AliPS",
@@ -314,7 +324,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "5d52036a715340f69380144ff6837fa0"
+      "ext": "28801b1dbaf4418fb7bc221a575703dd"
     },
     {
       "key": "push_agent",
@@ -324,7 +334,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "ad3c78559a494bde814f1a6c8c40db51"
+      "ext": "28801b1dbaf4418fb7bc221a575703dd"
     }
   ],
   "lives": [
@@ -482,6 +492,14 @@
       "type": 1,
       "url": "https://play.fuqizhishi.com/maotv/API.php?appkey=xiongdimenbieguaiwodingbuzhulegailekey07201538&url="
     },
+    {
+		  "name": "8",
+		  "type": 1,
+		  "url": "https://app.iminna.com/jx/?url=",
+		  "ext": {
+	  		"flag": ["youku", "优酷", "mgtv", "芒果", "qq", "腾讯", "qiyi", "爱奇艺", "qq", "奇艺"]
+  	    }
+	  },
     {
       "name": "parwix",
       "type": 0,
