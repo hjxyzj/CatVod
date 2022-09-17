@@ -56,6 +56,15 @@
       "filterable": 1
     },
     {
+      "key": "dr_瓜皮TV",
+      "name": "瓜皮TV",
+      "type": 1,
+      "api": "https://drpy.aqingyuan.repl.co/vod?rule=瓜皮TV",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
       "key": "小苹果",
       "name": "🍎小苹果",
       "type": 3,
@@ -74,40 +83,13 @@
       "filterable": 1
     },
     {
-      "key": "蓝光",
-      "name": "蓝光",
-      "type": 4,
-      "api": "http://vod.kooo.eu.org/t4/vip110002",
+      "key": "dr_vip影院",
+      "name": "vip影院",
+      "type": 1,
+      "api": "https://drpy.aqingyuan.repl.co/vod?rule=vip影院",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "80S",
-      "name": "80S",
-      "type": 4,
-      "api": "https://vod.kooo.eu.org/t4/vip11cx08",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "唐人街",
-      "name": "唐人街",
-      "type": 4,
-      "api": "https://vod.kooo.eu.org/t4/vip11b016",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "农民",
-      "name": "农民",
-      "type": 4,
-      "api": "https://vod.kooo.eu.org/t4/vip11fx64",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "filterable": 0
     },
     {
       "key": "神马",
@@ -208,6 +190,16 @@
        "quickSearch": 1,
        "filterable": 0
     },
+    { 
+      "key": "csp_Jianying",
+      "name": "简影（SP）",
+      "type": 3,
+      "api": "csp_JianYing",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7IklEIjo1MzE4LCJDcmVhdGVkQXQiOiIyMDIyLTAzLTE4VDE5OjI0OjM2LjkzOCswODowMCIsIlVwZGF0ZWRBdCI6IjIwMjItMDktMDVUMTA6NTY6MjguMDAzKzA4OjAwIiwiRGVsZXRlZEF0IjpudWxsLCJ1c2VyX2VtYWlsIjoiMzExMTI0ODcwMEBxcS5jb20iLCJ1c2VyX25hbWUiOiIiLCJ1c2VyX3B3ZCI6IiIsInVzZXJfaWQiOiJiOGIwNmU2ZS1jZjkwLTQ1NDItYmVjMS05NDk4OGVhMDE4NGIiLCJ1c2VyX2Fuc3dlciI6IiIsImxvY2tfaXMiOiJGYWxzZSIsImlzX3R2IjoiIiwiaXNfYWRtaW4iOiJGYWxzZSIsInJlZ190aW1lIjoiMjAyMi0wOS0wNVQxMDo1NjoyOC4wMDIrMDg6MDAiLCJyZWdfa2V5IjoiOTg4MTUxMzUiLCJ0dl90aW1lIjpudWxsLCJ0dl9rZXkiOiIifSwiZXhwIjoxNjYzMDI2NTAyLCJpc3MiOiJBbGZyZWRvIE1lbmRvemEifQ.m92i6og64WbwmCHYnI9CWL--Y1NwdMhvH4-Kn6FmPk8"
+    },
     {
       "key": "csp_Yj1211",
       "name": "直播合集",
@@ -298,7 +290,7 @@
         {
           "name": "live",
           "urls": [
-            "proxy://do=live&type=txt&ext="
+            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRlYS5jb20vc25nZGhhL1R2Q29uZmlnL3Jhdy9jb21taXQvZGFiNWIwYjMwNDMwYjkwMDVkYzdhYWIzODMzN2ZlM2M3ZTZhMmUyMS90di90di50eHQ"
           ]
         }
       ]
@@ -320,9 +312,13 @@
       "type": 2,
       "url": "Sequence"
     },
-    {"name":"嗅探","type":0,"url":"https://api.jiexi.la/?url=","ext":{"flag":["bilibili"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}},
-    {"name":"虾米","type":0,"url":"https://jx.xmflv.com/?url="}
- ],
+   {
+     "name":"江湖",
+     "type":1,
+     "url":"http://211.99.99.236:4567/jhjson/ceshi.php?url=",
+      "ext":{"flag":["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"]}
+   }
+   ],
   "flags": [
     "youku",
     "qq",
